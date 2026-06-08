@@ -26,9 +26,9 @@ body {
 
 .blog-card {
   max-width: 100%;
-  margin: 0 auto;
   border-radius: 10px;
   overflow: hidden;
+  margin: 0 0 20px 0;
 }
 
 .blog-img {
@@ -36,6 +36,7 @@ body {
   height: auto;
   display: block;
   object-fit: cover;
+  
 }
 h2{
   font-size: 0.9rem;
@@ -50,7 +51,7 @@ h2{
 .date{
   font-size: 0.8rem;
   color: hsl(0, 89%, 4%);
-  margin-bottom: 20px;
+  margin: 20px 0;
   font-weight: 600;
 }
 .title{
